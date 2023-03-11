@@ -1,0 +1,20 @@
+{
+  "name": "kettle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "repl": "tsc && node ./repl.js",
+    "run": "tsc "
+  },
+  "author": "Xetanai",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
